@@ -9,12 +9,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The following process is done on the original data presented in the link above and 'tidy_data_final.txt' is produced as a result:
 - All test and training data from the original set is merged, activity types and subjects are added as a new column. Proper labels are added
 - Only the columns that has 'mean' or 'std' are filtered (along with subjects and activity types)
-- Data grouped by subjects and activity types and mean of all observations are calculated according to these groupsç
+- Data grouped by subjects and activity types and mean of all observations are calculated according to these groupsÃ§
 
 Description of variables
 ===================================
 
 [1] "Subject" : is a list of all subjects participated in this experiment [1-30]
+
 [2] "ActLabel" : is a set of labels describing the activity type [WALKING,WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, SITTING, LAYING]
 
 The variables below are the same as described in the original set given in the link above, except the values are not the individual observations but the average of all individual observations:
