@@ -6,9 +6,9 @@ This guthub repository is created to present findings for the class project of G
 There are 4 files in this repository:
 
 - Readme.md : This is the file youa re reading and describing all other remaining files.
-- CodeBook.md : This file defines all the valiables (columns) in the 'tidy_data.txt' file.
-- tidy_data.txt : This is the final data set we get after cleaning the inital data set.
-- run_analysis.R : This is the R file does all thge hardwork and creates the 'tidy_data.txt' file at the end
+- CodeBook.md : This file defines all the valiables (columns) in the 'tidy_data_final.txt' file.
+- tidy_data_final.txt : This is the final data set we get after cleaning the inital data set.
+- run_analysis.R : This is the R file does all thge hardwork and creates the 'tidy_data_final.txt' file at the end
 
 
 To summarize what 'run_analysis.R' does:
