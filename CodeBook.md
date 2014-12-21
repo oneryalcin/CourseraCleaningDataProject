@@ -4,7 +4,7 @@
 'tidy_data_final.txt' was created by 'run_analysis.R' file from the source data set given in the link below:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-'tidy_data_final.txt' is a set of 180x88
+'tidy_data_final.txt' is a set of 181x88
 
 The following process is done on the original data presented in the link above and 'tidy_data_final.txt' is produced as a result:
 - All test and training data from the original set is merged, activity types and subjects are added as a new column. Proper labels are added
@@ -67,13 +67,13 @@ The variables below are the same as described in the original set given in the l
 [47] "fBodyBodyGyroJerkMag.mean.."         
 [48] "fBodyBodyGyroJerkMag.meanFreq.."     
 [49] "angle.tBodyAccMean.gravity."         
-[50] "angle.tBodyAccJerkMean..gravityMean."
-[51] "angle.tBodyGyroMean.gravityMean."    
-[52] "angle.tBodyGyroJerkMean.gravityMean."
-[53] "angle.X.gravityMean."                
-[54] "angle.Y.gravityMean."                
-[55] "angle.Z.gravityMean."                
-[56] "tBodyAcc.std...X"                    
+[50] "angle.tBodyAccJerkMean..gravityMean."    
+[51] "angle.tBodyGyroMean.gravityMean."       
+[52] "angle.tBodyGyroJerkMean.gravityMean."        
+[53] "angle.X.gravityMean."                   
+[54] "angle.Y.gravityMean."                    
+[55] "angle.Z.gravityMean."                   
+[56] "tBodyAcc.std...X"                      
 [57] "tBodyAcc.std...Y"                    
 [58] "tBodyAcc.std...Z"                    
 [59] "tGravityAcc.std...X"                 
